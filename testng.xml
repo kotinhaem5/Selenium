@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Selenium/FrameWork_Selenium">
+        <classes>
+    <class name="Test_Scenarios_BankGuru.test1"></class>
+        </classes>
+
+    </test>
+</suite>

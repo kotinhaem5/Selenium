@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="none" name="Bankguru">
+    <test name="Run on Chrome">
+        <parameter name="browser" value = "CHROME"></parameter>
+
+        <classes>
+            <class name="Test_Scenarios_BankGuru.test1"/>
+        </classes>
+    </test> <!-- Test -->
+<!--    <?ignore-->
+<!--            <test name="Run on FIREFOX">-->
+<!--            <parameter name="browser" value = "firefox"></parameter>-->
+<!--            <classes>-->
+<!--            <class name="com.bankguru.user.Level_05_Handle_Mutiple_Browser"/>-->
+<!--            </classes>-->
+<!--            </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--    ?>-->
+</suite> <!-- Suite -->
+        <!-- Abstract page-->
